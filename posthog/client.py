@@ -180,6 +180,7 @@ class Client(object):
     ):
         """
         Initialize a new PostHog client instance.
+        ADD THIS TO TRIGGER UPDATES
 
         Args:
             project_api_key: The project API key.

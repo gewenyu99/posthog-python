@@ -105,6 +105,8 @@ def no_throw(default_return=None):
     Note that this doesn't prevent errors from propagating via `on_error`.
     Exceptions will still be raised if the debug flag is enabled.
 
+    ADD THIS TO TRIGGER UPDATES
+
     Args:
         default_return: Value to return on exception (default: None)
     """

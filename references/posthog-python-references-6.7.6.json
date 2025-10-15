@@ -338,7 +338,7 @@
         {
           "id": "__init__",
           "title": "Client",
-          "description": "Initialize a new PostHog client instance. ADD THIS TO TRIGGER UPDATES",
+          "description": "Initialize a new PostHog client instance.",
           "details": "",
           "category": "Initialization",
           "params": [

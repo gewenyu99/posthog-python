@@ -51,7 +51,6 @@ jobs:
       #     release_name: ${{ env.REPO_VERSION }}
       
       - name: Dispatch generate-references for posthog-python
-        if: steps.create-release.outputs.is-new-version == 'true'
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
